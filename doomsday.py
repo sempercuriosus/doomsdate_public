@@ -206,9 +206,9 @@ class Doomsday:
         # --------------------------------------------------------
         if (doomsday.month == 1):
             if (doomsday.is_leap_year == True):
-                special_day = 31
+                special_day = 3
             else:
-                special_day = 32
+                special_day = 4
         elif(doomsday.month == 2):
             if (doomsday.is_leap_year == True):
                 special_day = 29
